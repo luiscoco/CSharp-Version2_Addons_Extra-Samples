@@ -14,7 +14,7 @@ The README also shows basic build/run commands.
 
 ---
 
-## P36_DefaultT — `default(T)`
+## P39_DefaultT — `default(T)`
 
 **What it is:** In generics, `default(T)` gives the type’s default value: `null` for reference types, zero-bit pattern for value types (`0`, `false`, `default(DateTime)` etc.).  
 
@@ -30,7 +30,7 @@ Build hint: `dotnet run --project P36_DefaultT`.
 
 ---
 
-## P37_ExternAlias — `extern alias`
+## P40_ExternAlias — `extern alias`
 
 **What it is:** Lets you reference two assemblies that define the same fully-qualified type/namespace by assigning reference aliases and qualifying with them in code.
 
@@ -53,7 +53,7 @@ The sample notes it’s “illustrative unless you add references with aliases,�
 
 ---
 
-## P38_GlobalAliasQualifier — `global::`
+## P41_GlobalAliasQualifier — `global::`
 
 **What it is:** `global::` refers to the root namespace, preventing name shadowing by local namespaces or types.
 
@@ -68,7 +68,7 @@ The repo demonstrates this exact disambiguation pattern.
 
 ---
 
-## P39_FriendAssemblies_Lib/App — Friend assemblies with `[InternalsVisibleTo]`
+## P42_FriendAssemblies_Lib/App — Friend assemblies with `[InternalsVisibleTo]`
 
 **What it is:** The `InternalsVisibleTo` assembly attribute lets another assembly see your `internal` members (a “friend” assembly).
 
@@ -87,7 +87,7 @@ The repo splits this into **P39_FriendAssemblies_Lib** and **P39_FriendAssemblie
 
 ---
 
-## P40_FixedSizeBuffers — `unsafe` fixed-size buffers
+## P43_FixedSizeBuffers — `unsafe` fixed-size buffers
 
 **What it is:** In an `unsafe` context, structs can embed fixed-length arrays:
 
@@ -104,7 +104,7 @@ The sample shows how to declare and use such buffers inside structs.
 
 ---
 
-## P41_PragmaWarning — `#pragma warning disable/restore`
+## P44_PragmaWarning — `#pragma warning disable/restore`
 
 **What it is:** Compiler-local suppression of specific warnings by ID:
 
