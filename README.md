@@ -68,7 +68,7 @@ The repo demonstrates this exact disambiguation pattern.
 
 ---
 
-## P42_FriendAssemblies_Lib/P43_FriendAssembliesApp — Friend assemblies with `[InternalsVisibleTo]`
+## P42_FriendAssembliesApp/P43_FriendAssemblies_Lib — Friend assemblies with `[InternalsVisibleTo]`
 
 **What it is:** The `InternalsVisibleTo` assembly attribute lets another assembly see your `internal` members (a “friend” assembly).
 
