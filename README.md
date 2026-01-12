@@ -68,7 +68,7 @@ The repo demonstrates this exact disambiguation pattern.
 
 ---
 
-## P42_FriendAssemblies_Lib/App — Friend assemblies with `[InternalsVisibleTo]`
+## P42_FriendAssemblies_Lib/P43_FriendAssembliesApp — Friend assemblies with `[InternalsVisibleTo]`
 
 **What it is:** The `InternalsVisibleTo` assembly attribute lets another assembly see your `internal` members (a “friend” assembly).
 
@@ -87,7 +87,7 @@ The repo splits this into **P39_FriendAssemblies_Lib** and **P39_FriendAssemblie
 
 ---
 
-## P43_FixedSizeBuffers — `unsafe` fixed-size buffers
+## P44_FixedSizeBuffers — `unsafe` fixed-size buffers
 
 **What it is:** In an `unsafe` context, structs can embed fixed-length arrays:
 
@@ -104,7 +104,7 @@ The sample shows how to declare and use such buffers inside structs.
 
 ---
 
-## P44_PragmaWarning — `#pragma warning disable/restore`
+## P45_PragmaWarning — `#pragma warning disable/restore`
 
 **What it is:** Compiler-local suppression of specific warnings by ID:
 
